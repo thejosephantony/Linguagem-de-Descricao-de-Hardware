@@ -8,5 +8,6 @@ module mux(x1, x2, s, f);    // mux 2:1
     and(g, k, x1);           // porta logica AND
     and(h, s, x2);           // porta logica AND
     or(f, g, h);             // porta logica OR
+    
 endmodule
 
